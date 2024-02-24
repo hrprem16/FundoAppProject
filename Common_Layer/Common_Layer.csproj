@@ -13,4 +13,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="RequestModels\" />
+    <None Remove="ResponseModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RequestModels\" />
+    <Folder Include="ResponseModel\" />
+  </ItemGroup>
 </Project>
