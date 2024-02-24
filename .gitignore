@@ -1,0 +1,66 @@
+# Build artifacts
+**/bin/
+**/obj/
+**/bin/Release/
+**/bin/Debug/
+**/Release/
+**/Debug/
+
+# NuGet package restore files
+**/packages/
+
+# Temporary files
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code settings
+.vscode/
+
+# Local development settings
+appsettings.Development.json
+local.settings.json
+
+# Logs
+*.log
+
+# Unit test results
+**/TestResults/
+
+# Code coverage results
+**/coverage/
+
+# Specific IDE/tooling files
+# (Uncomment according to your setup)
+
+# Visual Studio 2019/2022 cache
+/.vs/
+
+# Rider settings
+.idea/
+
+# ReSharper settings
+_ReSharper*/
+
+# JustCode settings
+.JustCode
+
+# TeamCity settings
+_TeamCity*
+
+# DotCover settings
+*.dotCover
+
+# AxoCover settings
+.axoCover/*
+
+# Specific files/folders you want to ignore
+# (Add them here)
+
+# Ignore all files starting with a dot (except .gitignore)
+.*
+!*.gitignore
+
+# Ignore all files ending with a tilde
+*~
