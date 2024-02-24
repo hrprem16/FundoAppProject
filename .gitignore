@@ -23,6 +23,31 @@ appsettings.Development.json
 local.settings.json
 
 # Logs
+*.l# Build artifacts
+**/bin/
+**/obj/
+**/bin/Release/
+**/bin/Debug/
+**/Release/
+**/Debug/
+
+# NuGet package restore files
+**/packages/
+
+# Temporary files
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code settings
+.vscode/
+
+# Local development settings
+appsettings.Development.json
+local.settings.json
+
+# Logs
 *.log
 
 # Unit test results
