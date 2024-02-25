@@ -25,6 +25,9 @@ namespace Repository_Layer.Services
             entity.UserEmail = model.UserEmail;
             entity.UserPassword = model.UserPassword;
 
+			context.UserTable.Add(entity);
+			context.SaveChanges();
+
             return entity;
 		}
 
