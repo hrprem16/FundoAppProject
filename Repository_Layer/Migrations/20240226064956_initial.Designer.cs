@@ -11,7 +11,7 @@ using Repository_Layer.Context;
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(FundoContext))]
-    [Migration("20240224065437_initial")]
+    [Migration("20240226064956_initial")]
     partial class initial
     {
         /// <inheritdoc />

@@ -6,8 +6,8 @@ using Repository_Layer.Interfaces;
 
 namespace Manager_Layer.Services
 {
-	public class UserManager:IUserManager
-	{
+    public class UserManager : IUserManager
+    {
         private readonly IUserRepository repository;
 
         public UserManager(IUserRepository repository)
@@ -17,6 +17,11 @@ namespace Manager_Layer.Services
         public UserEntity UserRegistration(RegisterModel model)
         {
             return repository.UserRegistration(model);
+        }
+
+        public UserEntity UserLogin(LoginModel model)
+        {
+            return repository.UserLogin(model);
         }
     }
 }
